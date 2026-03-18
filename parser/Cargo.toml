@@ -1,0 +1,10 @@
+[package]
+name = "parser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+csv = "1"
+byteorder = "1"
+derive-getters = { version = "0.5", features = ["auto_copy_getters"] }
+serde = { version = "1.0", features = ["derive"] }
